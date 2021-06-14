@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#f0f0f0;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logoimg{
+    width:300px !important;
+    height:auto;
+    margin-top:50px;
+}
+
+@media (max-width:770px){
+    .container{
+        margin:0 7%;
+    }
+}
